@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main(){
     float a,b;
-    printf("Please enter two number for performing addition\nEnter first number for addition:");
+    printf("Please enter two numbers for performing addition\nEnter the first number for addition:");
     scanf("%f",&a);
-    printf("Enter second number for addition:");
+    printf("Enter the second number for addition:");
     scanf("%f",&b);
-    printf("The sum of given two numbers is: %.3f",a+b);
+    printf("The sum of given numbers is: %.3f",a+b);
 } 
 
